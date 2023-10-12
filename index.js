@@ -4,10 +4,11 @@ function receivesAFunction(callback){
 
 function returnsANamedFunction() {
     return function namedFunction(){
-        console.log('hey')
     }
 }
 
 function returnsAnAnonymousFunction(){
-    return ()=>{console.log('hello')}
+    return ()=>{}
 }
+
+console.log('hello')
